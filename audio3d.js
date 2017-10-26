@@ -9,8 +9,8 @@ songbird.output.connect(audioContext.destination);
 // Set room acoustics properties.
 var dimensions = {
   width: 10.1,
-  height: 10.5,
-  depth: 25.4,
+  height: 10.1,
+  depth: 25.1,
 };
 
 var materials = {
@@ -33,10 +33,10 @@ MediaElementSourc.connect(source.input);
 
 // The source position is relative to the origin
 // (center of the room).
-source.setPosition(-0.707, -0.707, 10);
+source.setPosition(1, 1, 25);
 
 //source.setPosition(x, y, z);
-//songbird.setListenerPosition(x, y, z);
+
 //source.setOrientation(forward_x, forward_y, forward_z, up_x, up_y, up_z);
 //songbird.setListenerOrientation(forward_x, forward_y, forward_z, up_x, up_y, up_z);
 
